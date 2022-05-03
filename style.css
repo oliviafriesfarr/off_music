@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Cinzel:wght@600&display=swap");
+
+.titlefont {
+  font-family: "Cinzel", serif;
+}
+
+ul {
+  border: 5px double black;
+  padding: 20px;
+  background-color: #dadbdd;
+  font-size: 20px;
+}
+
+ul:hover {
+  border: 5px double black;
+  padding: 20px;
+  font-size: 20px;
+  background: linear-gradient(
+      217deg,
+      rgba(255, 0, 0, 0.8),
+      rgba(255, 0, 0, 0) 70.71%
+    ),
+    linear-gradient(127deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 0) 70.71%),
+    linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%);
+  color: white;
+}
+
+h1 {
+  border: 5px solid rgb(38 22 20);
+  padding: 5px;
+  background-color: rgb(40 43 81);
+  color: #dadbdd;
+}
+
+#titlefont {
+  font-family: "Cinzel", serif;
+  font-family: "Cinzel Decorative", cursive;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+h2 {
+  padding: 5px;
+  text-align: center;
+  color: gold;
+  background-color: rgb(40 43 81);
+}
+
+#background-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.35;
+  z-index: -1;
+}
+
+img {
+  border: 5px solid black;
+}
+
+body {
+  background-color: rgb(40, 87, 187);
+}
+
